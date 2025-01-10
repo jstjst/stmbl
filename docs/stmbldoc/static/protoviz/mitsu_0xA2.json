@@ -1,0 +1,229 @@
+{
+  "elements": {
+    "network_order": false,
+    "inner_subtitles": false,
+    "field_position": true,
+    "field_length": false,
+    "wrap_line": false,
+    "start_symbol": false
+  },
+  "style": {
+    "background_color": "#343A40",
+    "field_color": "#272822",
+    "text_color": "#E9ECEF",
+    "subtitle_color": "#E9ECEF",
+    "unit_width": 25,
+    "dyn_units": 3
+  },
+  "fields": [
+    {
+      "name": "buf0",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf1",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf2",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf3",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf4",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf5",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf6",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf7",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf8",
+      "length": 8,
+      "wrap": true
+    },
+    {
+      "name": "CMD",
+      "length": 8,
+      "wrap": false,
+      "color": "#555555"
+    },
+    {
+      "name": "status codes",
+      "length": 8,
+      "wrap": false,
+      "color": "#00AA00"
+    },
+    {
+      "name": "single turn data (up to 20 bits aligned to MSB)",
+      "length": 20,
+      "wrap": false,
+      "color": "#AA00AA"
+    },
+    {
+      "name": "",
+      "length": 4,
+      "wrap": false,
+      "color": "#272822"
+    },
+    {
+      "name": "multi turn data",
+      "length": 16,
+      "wrap": false,
+      "color": "#0055AA"
+    },
+    {
+      "name": "alarm codes",
+      "length": 8,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "CRC",
+      "length": 8,
+      "wrap": true,
+      "color": "#555555"
+    },
+    {
+      "name": "0xA2 / 162",
+      "length": 8,
+      "wrap": false,
+      "color": "#555555"
+    },
+    {
+      "name": "",
+      "length": 4,
+      "wrap": false
+    },
+    {
+      "name": "ERROR",
+      "length": 1,
+      "wrap": false,
+      "color": "#00AA00"
+    },
+    {
+      "name": "WARN",
+      "length": 1,
+      "wrap": false,
+      "color": "#00AA00"
+    },
+    {
+      "name": "",
+      "length": 2,
+      "wrap": false
+    },
+    {
+      "name": "LSB",
+      "length": 1,
+      "wrap": false,
+      "color": "#AA00AA"
+    },
+    {
+      "name": "",
+      "length": 18,
+      "wrap": false,
+      "color": "#AA00AA"
+    },
+    {
+      "name": "MSB",
+      "length": 1,
+      "wrap": false,
+      "color": "#AA00AA"
+    },
+    {
+      "name": "",
+      "length": 4,
+      "wrap": false
+    },
+    {
+      "name": "LSB",
+      "length": 1,
+      "wrap": false,
+      "color": "#0055AA"
+    },
+    {
+      "name": "",
+      "length": 14,
+      "wrap": false,
+      "color": "#0055AA"
+    },
+    {
+      "name": "MSB",
+      "length": 1,
+      "wrap": false,
+      "color": "#0055AA"
+    },
+    {
+      "name": "A0",
+      "length": 1,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "A1",
+      "length": 1,
+      "wrap": false
+    },
+    {
+      "name": "A2",
+      "length": 1,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "A3",
+      "length": 1,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "A4",
+      "length": 1,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "A5",
+      "length": 1,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "A6",
+      "length": 1,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "A7",
+      "length": 1,
+      "wrap": false,
+      "color": "#FF8000"
+    },
+    {
+      "name": "XOR all bytes = 0",
+      "length": 8,
+      "wrap": false,
+      "color": "#555555"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "elements": {
+    "network_order": false,
+    "inner_subtitles": false,
+    "field_position": true,
+    "field_length": false,
+    "wrap_line": false,
+    "start_symbol": false
+  },
+  "style": {
+    "background_color": "#343A40",
+    "field_color": "#272822",
+    "text_color": "#E9ECEF",
+    "subtitle_color": "#E9ECEF",
+    "unit_width": 25,
+    "dyn_units": 3
+  },
+  "fields": [
+    {
+      "name": "buf0",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf1",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf2",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "buf3",
+      "length": 8,
+      "wrap": true
+    },
+    {
+      "name": "CMD",
+      "length": 8,
+      "wrap": false,
+      "color": "#555555"
+    },
+    {
+      "name": "status codes",
+      "length": 8,
+      "wrap": false,
+      "color": "#00AA00"
+    },
+    {
+      "name": "encoder ID",
+      "length": 8,
+      "wrap": false,
+      "color": "#00AAAA"
+    },
+    {
+      "name": "CRC",
+      "length": 8,
+      "wrap": true,
+      "color": "#555555"
+    },
+    {
+      "name": "0x92 / 146",
+      "length": 8,
+      "wrap": false,
+      "color": "#555555"
+    },
+    {
+      "name": "",
+      "length": 4,
+      "wrap": false
+    },
+    {
+      "name": "ERR",
+      "length": 1,
+      "wrap": false,
+      "color": "#00AA00"
+    },
+    {
+      "name": "WNG",
+      "length": 1,
+      "wrap": false,
+      "color": "#00AA00"
+    },
+    {
+      "name": "",
+      "length": 2,
+      "wrap": false
+    },
+    {
+      "name": "",
+      "length": 8,
+      "wrap": false
+    },
+    {
+      "name": "XOR all bytes = 0",
+      "length": 8,
+      "wrap": false,
+      "color": "#555555"
+    }
+  ]
+}

@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="49 49 802 270"
+   version="1.1"
+   id="svg194"
+   sodipodi:docname="mitsu_0x92.svg"
+   width="802"
+   height="270"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs194" />
+  <sodipodi:namedview
+     id="namedview194"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.5255556"
+     inkscape:cx="450"
+     inkscape:cy="170.04412"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg194" />
+  <polygon
+     points="50,50 50,130 250,130 250,50 "
+     fill="#555555"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon1" />
+  <polygon
+     points="250,50 250,130 450,130 450,50 "
+     fill="#272822"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon2" />
+  <polygon
+     points="450,50 450,130 500,130 500,50 "
+     fill="#272822"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon3" />
+  <polygon
+     points="500,50 500,130 525,130 525,50 "
+     fill="#00aa00"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon4" />
+  <polygon
+     points="525,50 525,130 550,130 550,50 "
+     fill="#00aa00"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon5" />
+  <polygon
+     points="550,50 550,130 650,130 650,50 "
+     fill="#272822"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon6" />
+  <polygon
+     points="650,50 650,130 850,130 850,50 "
+     fill="#555555"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon7" />
+  <polygon
+     points="50,130 50,210 250,210 250,130 "
+     fill="#555555"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon8" />
+  <polygon
+     points="250,130 250,210 450,210 450,130 "
+     fill="#00aaaa"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon9" />
+  <polygon
+     points="450,130 450,210 650,210 650,130 "
+     fill="#00aa00"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon10" />
+  <polygon
+     points="650,130 650,210 850,210 850,130 "
+     fill="#555555"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon11" />
+  <polygon
+     points="50,210 50,290 250,290 250,210 "
+     fill="#272822"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon12" />
+  <polygon
+     points="250,210 250,290 450,290 450,210 "
+     fill="#272822"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon13" />
+  <polygon
+     points="450,210 450,290 650,290 650,210 "
+     fill="#272822"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon14" />
+  <polygon
+     points="650,210 650,290 850,290 850,210 "
+     fill="#272822"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="polygon15" />
+  <line
+     x1="75"
+     y1="50"
+     x2="75"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line15" />
+  <line
+     x1="75"
+     y1="110"
+     x2="75"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line16" />
+  <line
+     x1="100"
+     y1="50"
+     x2="100"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line17" />
+  <line
+     x1="100"
+     y1="110"
+     x2="100"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line18" />
+  <line
+     x1="125"
+     y1="50"
+     x2="125"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line19" />
+  <line
+     x1="125"
+     y1="110"
+     x2="125"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line20" />
+  <line
+     x1="150"
+     y1="50"
+     x2="150"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line21" />
+  <line
+     x1="150"
+     y1="110"
+     x2="150"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line22" />
+  <line
+     x1="175"
+     y1="50"
+     x2="175"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line23" />
+  <line
+     x1="175"
+     y1="110"
+     x2="175"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line24" />
+  <line
+     x1="200"
+     y1="50"
+     x2="200"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line25" />
+  <line
+     x1="200"
+     y1="110"
+     x2="200"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line26" />
+  <line
+     x1="225"
+     y1="50"
+     x2="225"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line27" />
+  <line
+     x1="225"
+     y1="110"
+     x2="225"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line28" />
+  <line
+     x1="275"
+     y1="50"
+     x2="275"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line29" />
+  <line
+     x1="275"
+     y1="110"
+     x2="275"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line30" />
+  <line
+     x1="300"
+     y1="50"
+     x2="300"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line31" />
+  <line
+     x1="300"
+     y1="110"
+     x2="300"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line32" />
+  <line
+     x1="325"
+     y1="50"
+     x2="325"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line33" />
+  <line
+     x1="325"
+     y1="110"
+     x2="325"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line34" />
+  <line
+     x1="350"
+     y1="50"
+     x2="350"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line35" />
+  <line
+     x1="350"
+     y1="110"
+     x2="350"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line36" />
+  <line
+     x1="375"
+     y1="50"
+     x2="375"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line37" />
+  <line
+     x1="375"
+     y1="110"
+     x2="375"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line38" />
+  <line
+     x1="400"
+     y1="50"
+     x2="400"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line39" />
+  <line
+     x1="400"
+     y1="110"
+     x2="400"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line40" />
+  <line
+     x1="425"
+     y1="50"
+     x2="425"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line41" />
+  <line
+     x1="425"
+     y1="110"
+     x2="425"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line42" />
+  <line
+     x1="475"
+     y1="50"
+     x2="475"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line43" />
+  <line
+     x1="475"
+     y1="110"
+     x2="475"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line44" />
+  <line
+     x1="575"
+     y1="50"
+     x2="575"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line45" />
+  <line
+     x1="575"
+     y1="110"
+     x2="575"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line46" />
+  <line
+     x1="600"
+     y1="50"
+     x2="600"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line47" />
+  <line
+     x1="600"
+     y1="110"
+     x2="600"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line48" />
+  <line
+     x1="625"
+     y1="50"
+     x2="625"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line49" />
+  <line
+     x1="625"
+     y1="110"
+     x2="625"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line50" />
+  <line
+     x1="675"
+     y1="50"
+     x2="675"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line51" />
+  <line
+     x1="675"
+     y1="110"
+     x2="675"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line52" />
+  <line
+     x1="700"
+     y1="50"
+     x2="700"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line53" />
+  <line
+     x1="700"
+     y1="110"
+     x2="700"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line54" />
+  <line
+     x1="725"
+     y1="50"
+     x2="725"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line55" />
+  <line
+     x1="725"
+     y1="110"
+     x2="725"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line56" />
+  <line
+     x1="750"
+     y1="50"
+     x2="750"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line57" />
+  <line
+     x1="750"
+     y1="110"
+     x2="750"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line58" />
+  <line
+     x1="775"
+     y1="50"
+     x2="775"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line59" />
+  <line
+     x1="775"
+     y1="110"
+     x2="775"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line60" />
+  <line
+     x1="800"
+     y1="50"
+     x2="800"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line61" />
+  <line
+     x1="800"
+     y1="110"
+     x2="800"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line62" />
+  <line
+     x1="825"
+     y1="50"
+     x2="825"
+     y2="70"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line63" />
+  <line
+     x1="825"
+     y1="110"
+     x2="825"
+     y2="130"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line64" />
+  <line
+     x1="75"
+     y1="130"
+     x2="75"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line65" />
+  <line
+     x1="75"
+     y1="190"
+     x2="75"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line66" />
+  <line
+     x1="100"
+     y1="130"
+     x2="100"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line67" />
+  <line
+     x1="100"
+     y1="190"
+     x2="100"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line68" />
+  <line
+     x1="125"
+     y1="130"
+     x2="125"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line69" />
+  <line
+     x1="125"
+     y1="190"
+     x2="125"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line70" />
+  <line
+     x1="150"
+     y1="130"
+     x2="150"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line71" />
+  <line
+     x1="150"
+     y1="190"
+     x2="150"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line72" />
+  <line
+     x1="175"
+     y1="130"
+     x2="175"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line73" />
+  <line
+     x1="175"
+     y1="190"
+     x2="175"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line74" />
+  <line
+     x1="200"
+     y1="130"
+     x2="200"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line75" />
+  <line
+     x1="200"
+     y1="190"
+     x2="200"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line76" />
+  <line
+     x1="225"
+     y1="130"
+     x2="225"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line77" />
+  <line
+     x1="225"
+     y1="190"
+     x2="225"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line78" />
+  <line
+     x1="275"
+     y1="130"
+     x2="275"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line79" />
+  <line
+     x1="275"
+     y1="190"
+     x2="275"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line80" />
+  <line
+     x1="300"
+     y1="130"
+     x2="300"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line81" />
+  <line
+     x1="300"
+     y1="190"
+     x2="300"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line82" />
+  <line
+     x1="325"
+     y1="130"
+     x2="325"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line83" />
+  <line
+     x1="325"
+     y1="190"
+     x2="325"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line84" />
+  <line
+     x1="350"
+     y1="130"
+     x2="350"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line85" />
+  <line
+     x1="350"
+     y1="190"
+     x2="350"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line86" />
+  <line
+     x1="375"
+     y1="130"
+     x2="375"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line87" />
+  <line
+     x1="375"
+     y1="190"
+     x2="375"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line88" />
+  <line
+     x1="400"
+     y1="130"
+     x2="400"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line89" />
+  <line
+     x1="400"
+     y1="190"
+     x2="400"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line90" />
+  <line
+     x1="425"
+     y1="130"
+     x2="425"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line91" />
+  <line
+     x1="425"
+     y1="190"
+     x2="425"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line92" />
+  <line
+     x1="475"
+     y1="130"
+     x2="475"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line93" />
+  <line
+     x1="475"
+     y1="190"
+     x2="475"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line94" />
+  <line
+     x1="500"
+     y1="130"
+     x2="500"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line95" />
+  <line
+     x1="500"
+     y1="190"
+     x2="500"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line96" />
+  <line
+     x1="525"
+     y1="130"
+     x2="525"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line97" />
+  <line
+     x1="525"
+     y1="190"
+     x2="525"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line98" />
+  <line
+     x1="550"
+     y1="130"
+     x2="550"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line99" />
+  <line
+     x1="550"
+     y1="190"
+     x2="550"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line100" />
+  <line
+     x1="575"
+     y1="130"
+     x2="575"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line101" />
+  <line
+     x1="575"
+     y1="190"
+     x2="575"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line102" />
+  <line
+     x1="600"
+     y1="130"
+     x2="600"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line103" />
+  <line
+     x1="600"
+     y1="190"
+     x2="600"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line104" />
+  <line
+     x1="625"
+     y1="130"
+     x2="625"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line105" />
+  <line
+     x1="625"
+     y1="190"
+     x2="625"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line106" />
+  <line
+     x1="675"
+     y1="130"
+     x2="675"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line107" />
+  <line
+     x1="675"
+     y1="190"
+     x2="675"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line108" />
+  <line
+     x1="700"
+     y1="130"
+     x2="700"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line109" />
+  <line
+     x1="700"
+     y1="190"
+     x2="700"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line110" />
+  <line
+     x1="725"
+     y1="130"
+     x2="725"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line111" />
+  <line
+     x1="725"
+     y1="190"
+     x2="725"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line112" />
+  <line
+     x1="750"
+     y1="130"
+     x2="750"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line113" />
+  <line
+     x1="750"
+     y1="190"
+     x2="750"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line114" />
+  <line
+     x1="775"
+     y1="130"
+     x2="775"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line115" />
+  <line
+     x1="775"
+     y1="190"
+     x2="775"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line116" />
+  <line
+     x1="800"
+     y1="130"
+     x2="800"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line117" />
+  <line
+     x1="800"
+     y1="190"
+     x2="800"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line118" />
+  <line
+     x1="825"
+     y1="130"
+     x2="825"
+     y2="150"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line119" />
+  <line
+     x1="825"
+     y1="190"
+     x2="825"
+     y2="210"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line120" />
+  <line
+     x1="75"
+     y1="210"
+     x2="75"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line121" />
+  <line
+     x1="75"
+     y1="270"
+     x2="75"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line122" />
+  <line
+     x1="100"
+     y1="210"
+     x2="100"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line123" />
+  <line
+     x1="100"
+     y1="270"
+     x2="100"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line124" />
+  <line
+     x1="125"
+     y1="210"
+     x2="125"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line125" />
+  <line
+     x1="125"
+     y1="270"
+     x2="125"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line126" />
+  <line
+     x1="150"
+     y1="210"
+     x2="150"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line127" />
+  <line
+     x1="150"
+     y1="270"
+     x2="150"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line128" />
+  <line
+     x1="175"
+     y1="210"
+     x2="175"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line129" />
+  <line
+     x1="175"
+     y1="270"
+     x2="175"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line130" />
+  <line
+     x1="200"
+     y1="210"
+     x2="200"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line131" />
+  <line
+     x1="200"
+     y1="270"
+     x2="200"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line132" />
+  <line
+     x1="225"
+     y1="210"
+     x2="225"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line133" />
+  <line
+     x1="225"
+     y1="270"
+     x2="225"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line134" />
+  <line
+     x1="275"
+     y1="210"
+     x2="275"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line135" />
+  <line
+     x1="275"
+     y1="270"
+     x2="275"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line136" />
+  <line
+     x1="300"
+     y1="210"
+     x2="300"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line137" />
+  <line
+     x1="300"
+     y1="270"
+     x2="300"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line138" />
+  <line
+     x1="325"
+     y1="210"
+     x2="325"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line139" />
+  <line
+     x1="325"
+     y1="270"
+     x2="325"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line140" />
+  <line
+     x1="350"
+     y1="210"
+     x2="350"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line141" />
+  <line
+     x1="350"
+     y1="270"
+     x2="350"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line142" />
+  <line
+     x1="375"
+     y1="210"
+     x2="375"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line143" />
+  <line
+     x1="375"
+     y1="270"
+     x2="375"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line144" />
+  <line
+     x1="400"
+     y1="210"
+     x2="400"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line145" />
+  <line
+     x1="400"
+     y1="270"
+     x2="400"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line146" />
+  <line
+     x1="425"
+     y1="210"
+     x2="425"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line147" />
+  <line
+     x1="425"
+     y1="270"
+     x2="425"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line148" />
+  <line
+     x1="475"
+     y1="210"
+     x2="475"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line149" />
+  <line
+     x1="475"
+     y1="270"
+     x2="475"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line150" />
+  <line
+     x1="500"
+     y1="210"
+     x2="500"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line151" />
+  <line
+     x1="500"
+     y1="270"
+     x2="500"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line152" />
+  <line
+     x1="525"
+     y1="210"
+     x2="525"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line153" />
+  <line
+     x1="525"
+     y1="270"
+     x2="525"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line154" />
+  <line
+     x1="550"
+     y1="210"
+     x2="550"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line155" />
+  <line
+     x1="550"
+     y1="270"
+     x2="550"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line156" />
+  <line
+     x1="575"
+     y1="210"
+     x2="575"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line157" />
+  <line
+     x1="575"
+     y1="270"
+     x2="575"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line158" />
+  <line
+     x1="600"
+     y1="210"
+     x2="600"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line159" />
+  <line
+     x1="600"
+     y1="270"
+     x2="600"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line160" />
+  <line
+     x1="625"
+     y1="210"
+     x2="625"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line161" />
+  <line
+     x1="625"
+     y1="270"
+     x2="625"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line162" />
+  <line
+     x1="675"
+     y1="210"
+     x2="675"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line163" />
+  <line
+     x1="675"
+     y1="270"
+     x2="675"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line164" />
+  <line
+     x1="700"
+     y1="210"
+     x2="700"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line165" />
+  <line
+     x1="700"
+     y1="270"
+     x2="700"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line166" />
+  <line
+     x1="725"
+     y1="210"
+     x2="725"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line167" />
+  <line
+     x1="725"
+     y1="270"
+     x2="725"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line168" />
+  <line
+     x1="750"
+     y1="210"
+     x2="750"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line169" />
+  <line
+     x1="750"
+     y1="270"
+     x2="750"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line170" />
+  <line
+     x1="775"
+     y1="210"
+     x2="775"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line171" />
+  <line
+     x1="775"
+     y1="270"
+     x2="775"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line172" />
+  <line
+     x1="800"
+     y1="210"
+     x2="800"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line173" />
+  <line
+     x1="800"
+     y1="270"
+     x2="800"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line174" />
+  <line
+     x1="825"
+     y1="210"
+     x2="825"
+     y2="230"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line175" />
+  <line
+     x1="825"
+     y1="270"
+     x2="825"
+     y2="290"
+     style="stroke:#e9ecef;stroke-width:2"
+     id="line176" />
+  <text
+     x="150"
+     y="90"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text176">XOR all bytes = 0</text>
+  <text
+     x="350"
+     y="90"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text177" />
+  <text
+     x="475"
+     y="90"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text178" />
+  <text
+     x="-88.079994"
+     y="513.42798"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text179"
+     transform="rotate(-90)">WNG</text>
+  <text
+     x="-89.232002"
+     y="539.58002"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text180"
+     transform="rotate(-90)">ERR</text>
+  <text
+     x="600"
+     y="90"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text181" />
+  <text
+     x="750"
+     y="90"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text182">0x92 / 146</text>
+  <text
+     x="150"
+     y="170"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text183">CRC</text>
+  <text
+     x="350"
+     y="170"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text184">encoder ID</text>
+  <text
+     x="550"
+     y="170"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text185">status codes</text>
+  <text
+     x="750"
+     y="170"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text186">CMD</text>
+  <text
+     x="150"
+     y="250"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text187">buf3</text>
+  <text
+     x="350"
+     y="250"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text188">buf2</text>
+  <text
+     x="550"
+     y="250"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text189">buf1</text>
+  <text
+     x="750"
+     y="250"
+     fill="#e9ecef"
+     dominant-baseline="middle"
+     text-anchor="middle"
+     font-size="16px"
+     id="text190">buf0</text>
+  <text
+     x="837.5"
+     y="300"
+     fill="#e9ecef"
+     dominant-baseline="hanging"
+     text-anchor="middle"
+     font-size="16px"
+     id="text191">0</text>
+  <text
+     x="637.5"
+     y="300"
+     fill="#e9ecef"
+     dominant-baseline="hanging"
+     text-anchor="middle"
+     font-size="16px"
+     id="text192">8</text>
+  <text
+     x="437.5"
+     y="300"
+     fill="#e9ecef"
+     dominant-baseline="hanging"
+     text-anchor="middle"
+     font-size="16px"
+     id="text193">16</text>
+  <text
+     x="237.5"
+     y="300"
+     fill="#e9ecef"
+     dominant-baseline="hanging"
+     text-anchor="middle"
+     font-size="16px"
+     id="text194">24</text>
+</svg>
