@@ -10,12 +10,14 @@
 HAL_COMP(encm);
 
 HAL_PIN(pos);
+HAL_PIN(revolutions);
 HAL_PIN(error);
 HAL_PIN(cmd_error);
 HAL_PIN(crc_error);
 HAL_PIN(dma_error);
 HAL_PIN(state);
 
+HAL_PIN(res);
 HAL_PIN(cmd);
 HAL_PIN(req);
 HAL_PIN(full_duplex);
@@ -108,40 +110,14 @@ static void hw_init(void *ctx_ptr, hal_pin_inst_t *pin_ptr) {
 static void rt_func(float period, void *ctx_ptr, hal_pin_inst_t *pin_ptr) {
   struct encm_ctx_t *ctx      = (struct encm_ctx_t *)ctx_ptr;
   struct encm_pin_ctx_t *pins = (struct encm_pin_ctx_t *)pin_ptr;
-  // for(int i = 0; i < ARRAY_SIZE(ctx->rxbuf); i++){
-  //    PIN_ARRAY(d,i) = ctx->rxbuf[i];
-  // }
-  //position request: 0x32
-  //reply:
-  //0: request
-  //1: unknown
-  //2: low 1 bit
-  //3: mid 8 bit
-  //4: hi 8 bit
-  //5: 8 bit full turns
-  //6: 255 turns... how many bits?
-  //7: unknown
-  //8: checksum: xor byte 0-8 = 0
-
-  //request: 0x02
-  //0: request
-  //1: unknown
-  //2: low 8 bit
-  //3: mid 8 bit
-  //4: hi 1 + 7 bit mt
-  //5: crc
-
-  //request: 0x92
-  //0: request
-  //1: unknown
-  //2: id
-  //3: crc or id ...
 
   uint8_t cmd            = 0;
+  uint8_t res            = 0;
   uint8_t expected_bytes = 0;
 
-  if(PIN(cmd) > 0) {  // cmd overwrite
+  if(PIN(cmd) > 0) {  // cmd and resolution overwrite
     cmd = PIN(cmd);
+    res = PIN(res);
   } else {
     switch((int)PIN(id)) {
       case 0:                   // no id
@@ -150,18 +126,27 @@ static void rt_func(float period, void *ctx_ptr, hal_pin_inst_t *pin_ptr) {
         break;
 
       case 32:
-        cmd            = 0x2;  // request singel turn data
+        cmd            = 0x2;  // request single turn data
+        res            = 13;
         expected_bytes = 7;
         break;
 
       case 61:
       case 65:
-        cmd            = 0x32;  // request singel turn data
+        cmd            = 0x32;  // request single and multi turn data
+        res            = 17;
+        expected_bytes = 9;
+        break;
+
+      case 68:
+        cmd            = 0x32;  // request single and multi turn data
+        res            = 18;
         expected_bytes = 9;
         break;
 
       default:
         cmd            = 0x32;
+        res            = 17;
         expected_bytes = 9;
         break;
     }
@@ -200,23 +185,78 @@ static void rt_func(float period, void *ctx_ptr, hal_pin_inst_t *pin_ptr) {
         PIN(error)     = 1;
         PIN(cmd_error) = 1;
       } else {
-        uint32_t ipos = 0;
+        uint8_t status = 0;
+        uint8_t alarm  = 0;
+        uint32_t ipos  = 0;
+        uint32_t irev  = 0;
+
         switch(cmd) {
-          case 0x2:                                                               // single turn data
-            ipos       = (ctx->rxbuf[2] << 11) + ((ctx->rxbuf[3] & 0x1f) << 19);  // 13 bit
+          case 0x02:  // single turn data
+            status = ctx->rxbuf[1];
+            alarm  = ctx->rxbuf[5];
+
+            ipos = (ctx->rxbuf[2] + (ctx->rxbuf[3] << 8) + (ctx->rxbuf[4] << 16));
+            ipos &= (1U << res) - 1;
+            ipos <<= 24 - res;
+
             PIN(state) = 3;
             break;
+          case 0x32:  // single and multi turn data
+            status = ctx->rxbuf[1];
+            alarm  = ctx->rxbuf[7];
 
-          case 0x32:                                                                             // single turn data
-            ipos       = (ctx->rxbuf[2] & 0x80) + (ctx->rxbuf[3] << 8) + (ctx->rxbuf[4] << 16);  // 17 bit
+            ipos = (ctx->rxbuf[2] + (ctx->rxbuf[3] << 8) + (ctx->rxbuf[4] << 16));
+            ipos &= ((1U << res) - 1) << (24 - res);
+
+            irev = (ctx->rxbuf[5] + (ctx->rxbuf[6] << 8));
+
             PIN(state) = 3;
             break;
+          case 0x2a:  // single and multi turn data
+            status = ctx->rxbuf[1];
+            alarm  = ctx->rxbuf[7];
 
+            ipos = (ctx->rxbuf[2] + (ctx->rxbuf[3] << 8) + (ctx->rxbuf[4] << 16));
+            ipos &= (1U << res) - 1;
+            ipos <<= 24 - res;
+
+            irev = (ctx->rxbuf[5] + (ctx->rxbuf[6] << 8));
+
+            PIN(state) = 3;
+            break;
+          case 0xa2:  // single and multi turn data
+            status = ctx->rxbuf[1];
+            alarm  = ctx->rxbuf[7];
+
+            ipos = (ctx->rxbuf[2] + (ctx->rxbuf[3] << 8) + (ctx->rxbuf[4] << 16));
+            ipos &= ((1U << res) - 1) << (20 - res);
+            ipos <<= 4;
+
+            irev = (ctx->rxbuf[5] + (ctx->rxbuf[6] << 8));
+
+            PIN(state) = 3;
+            break;
+          case 0x8a:  // multi turn data
+            status = ctx->rxbuf[1];
+            alarm  = ctx->rxbuf[4];
+
+            irev = (ctx->rxbuf[2] + (ctx->rxbuf[3] << 8));
+
+            PIN(state) = 3;
+            break;
           case 0x92:  // encoder id
+          case 0x7a:
+            status = ctx->rxbuf[1];
+
             PIN(id) = ctx->rxbuf[2];
             break;
+          case 0xba:  // clear alarms
+            status = ctx->rxbuf[1];
+            alarm  = ctx->rxbuf[5];
+            break;
         }
-        PIN(pos) = (ipos * M_PI * 2.0 / 16777216.0) - M_PI;
+        PIN(pos)         = (ipos * M_PI * 2.0 / 16777216.0) - M_PI;  // ipos is always scaled up to 24 bit
+        PIN(revolutions) = irev;
       }
     }
   }
