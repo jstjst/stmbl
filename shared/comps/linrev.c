@@ -35,11 +35,11 @@ HAL_PIN(fb_d_in);
 HAL_PIN(fb_d_out);
 
 HAL_PIN(rev_clear);
-HAL_PIN(rev);
+HAL_PIN(rev);  // this is the only place in stmbl where rev stands for revolutions, everywhere else it means reverse
 
 struct linrev_ctx_t {
-  int lastq;    //last quadrant
-  int32_t rev;  //current multiturn
+  int lastq;            //last quadrant
+  int32_t revolutions;  //current multiturn
 };
 
 static void rt_func(float period, void *ctx_ptr, hal_pin_inst_t *pin_ptr) {
@@ -54,20 +54,20 @@ static void rt_func(float period, void *ctx_ptr, hal_pin_inst_t *pin_ptr) {
   int q = quadrant(PIN(fb_in));
 
   if(q != 0 && q == 3 && ctx->lastq == 2) {
-    ctx->rev++;
+    ctx->revolutions++;
   }
 
   if(q != 0 && q == 2 && ctx->lastq == 3) {
-    ctx->rev--;
+    ctx->revolutions--;
   }
 
   ctx->lastq = q;
 
   if(PIN(rev_clear) > 0) {
-    ctx->rev = 0;
+    ctx->revolutions = 0;
   }
-  PIN(rev)      = ctx->rev;
-  PIN(fb_out)   = ((PIN(fb_in) + ctx->rev * M_PI * 2.0) * scale) / (2.0 * M_PI);
+  PIN(rev)      = ctx->revolutions;
+  PIN(fb_out)   = ((PIN(fb_in) + ctx->revolutions * M_PI * 2.0) * scale) / (2.0 * M_PI);
   PIN(fb_d_out) = (PIN(fb_d_in) * scale) / (2.0 * M_PI);
 }
 
